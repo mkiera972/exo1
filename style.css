@@ -1,1 +1,54 @@
 /* style de la maquette */
+
+@font-face
+{
+    font-family: 'Roboto-Black';
+    src: url('font/Roboto-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#main_wrapper
+{
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+/* Navigation */
+nav{
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul
+{   
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+
+nav a
+{
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-family: 'Roboto-Black', serif;
+}

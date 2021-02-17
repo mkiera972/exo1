@@ -2,8 +2,8 @@
 
 @font-face
 {
-    font-family: 'Roboto-Black';
-    src: url('font/Roboto-Black.ttf') format('truetype');
+    font-family: 'Roboto-Regular';
+    src: url('font/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,10 @@ header
     align-items: flex-end;
 }
 
+#logo
+{
+    display: flex;
+}
 
 /* Navigation */
 nav{
@@ -50,5 +54,76 @@ nav a
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
-    font-family: 'Roboto-Black', serif;
+    font-family: 'Roboto-Regular', serif;
+}
+
+/* Bannière */
+
+#banniere_image
+{
+    background: url('images/backgroung_image.jpg');
+    position: relative;
+    background-size: 100%;
+    height: 485px;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+
+    width: 100%;
+    height: 485px;
+    color: white;
+    font-size: 2.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Roboto-Regular', serif;
+    flex-direction: column;
+    font-weight: bold;
+    
+}
+
+#banniere_description img
+{
+    width: 20%;  
+}
+
+section
+{
+    margin-bottom: 20px;
+}
+
+.content1
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.content1 p
+{
+    font-family: 'Roboto-Regular', serif;
+    width: 50%;
+    text-align: center;
+}
+
+.content2 
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.block_content2{
+    font-family: 'Roboto-Regular', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 25%;
+}
+
+.block_content2 p{
+    text-align: center;
 }

@@ -89,12 +89,14 @@ nav a
     width: 20%;  
 }
 
+/* section */
+
 section
 {
     margin-bottom: 20px;
 }
 
-.content1
+.content1, .content2
 {
     display: flex;
     justify-content: center;
@@ -104,15 +106,9 @@ section
 .content1 p
 {
     font-family: 'Roboto-Regular', serif;
-    width: 50%;
+    width: 70%;
     text-align: center;
-}
-
-.content2 
-{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    font-size: 21px;
 }
 
 .block_content2{
@@ -121,9 +117,31 @@ section
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    width: 25%;
+    width: 21%;
 }
 
 .block_content2 p{
     text-align: center;
+}
+
+
+.content3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citation{
+    font-family: 'Roboto-Regular', serif;
+    font-size: 21px;
+    text-align: center;
+    width: 50%;
+}
+
+.auteur{
+    font-family: 'Roboto-Regular', serif;
+    font-size: 14px;
+    text-align: center;
+    width: 50%;
 }

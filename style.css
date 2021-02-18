@@ -145,3 +145,45 @@ section
     text-align: center;
     width: 50%;
 }
+
+footer
+{
+    width: 1200px;
+    margin: auto;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: 'Roboto-Regular', serif;
+}
+
+.societe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_icon a{
+    width: 10%;
+    text-align: center;
+}
+
+.infos_footer{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.coordonnees ul li{
+    list-style-type: none;
+}
+
+i
+{
+    color : grey
+}
+
+

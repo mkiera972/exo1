@@ -1,0 +1,189 @@
+/* style de la maquette */
+
+@font-face
+{
+    font-family: 'Roboto-Regular';
+    src: url('font/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#main_wrapper
+{
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo
+{
+    display: flex;
+}
+
+/* Navigation */
+nav{
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul
+{   
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+
+nav a
+{
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-family: 'Roboto-Regular', serif;
+}
+
+/* Bannière */
+
+#banniere_image
+{
+    background: url('images/backgroung_image.jpg');
+    position: relative;
+    background-size: 100%;
+    height: 485px;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+
+    width: 100%;
+    height: 485px;
+    color: white;
+    font-size: 2.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Roboto-Regular', serif;
+    flex-direction: column;
+    font-weight: bold;
+    
+}
+
+#banniere_description img
+{
+    width: 20%;  
+}
+
+/* section */
+
+section
+{
+    margin-bottom: 20px;
+}
+
+.content1, .content2
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.content1 p
+{
+    font-family: 'Roboto-Regular', serif;
+    width: 70%;
+    text-align: center;
+    font-size: 21px;
+}
+
+.block_content2{
+    font-family: 'Roboto-Regular', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 21%;
+}
+
+.block_content2 p{
+    text-align: center;
+}
+
+
+.content3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citation{
+    font-family: 'Roboto-Regular', serif;
+    font-size: 21px;
+    text-align: center;
+    width: 50%;
+}
+
+.auteur{
+    font-family: 'Roboto-Regular', serif;
+    font-size: 14px;
+    text-align: center;
+    width: 50%;
+}
+
+footer
+{
+    width: 1200px;
+    margin: auto;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: 'Roboto-Regular', serif;
+}
+
+.societe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_icon a{
+    width: 10%;
+    text-align: center;
+}
+
+.infos_footer{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.coordonnees ul li{
+    list-style-type: none;
+}
+
+i
+{
+    color : grey
+}
+
+
